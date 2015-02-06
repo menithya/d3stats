@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Dashboard</title>
+ <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.1/css/bootstrap.min.css">
+ <link rel="stylesheet" type="text/css" href="css/stats.css">
+</head>
+
+  <body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Viz</a>
+    </div>
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Stats</a></li>
+        <li><a href="#">Months</a></li>
+        <li><a href="#">Country</a></li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div>
+</div>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+      <div class="container">
+          <div class="row">
+            <div id="visits" class="col-sm-8 line-right">
+            </div>
+            <div id="country" class="col-sm-4 ">
+            </div>
+          </div>
+      	</div>
+        <div class="bottom"></div>
+      </div>
+    <script type="text/javascript" src="js/stats.js"></script>
+  </body>
+<html>

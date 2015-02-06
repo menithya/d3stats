@@ -1,0 +1,22 @@
+.divClass{
+  border-style:solid;
+  border-color:#0000ff #0000ff;
+  height:500px;
+}
+.axis path,
+.axis line {
+  fill: none;
+  stroke: green;
+  shape-rendering: crispEdges;
+   stroke-width: 1.5px;
+}
+.bar {
+  fill: steelblue;
+}
+.line-right {
+  margin-right: -1px;
+  border-right: 1px solid black;
+}
+.bottom {
+	border-bottom: 1px solid #ccc;
+}
